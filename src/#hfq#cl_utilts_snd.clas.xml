@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/HFQ/CL_UTILTS_SND</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Klasse zum Senden der Berechnungsformel</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_SND</CLSNAME>
+     <CMPNAME>CHECK_CORRESPONDING_MALOS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüft auf gefüllte POD-Daten (MaLo+Tranchen) und befüllt ggf</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_SND</CLSNAME>
+     <CMPNAME>CHECK_CORRESPONDING_MELOS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüft auf gefüllte POD-Daten und befüllt ggf.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_SND</CLSNAME>
+     <CMPNAME>CHECK_FLG_VERSAND_ASYNC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüft ob ein Kennzeichen für Async Versand gesetzt ist</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_SND</CLSNAME>
+     <CMPNAME>CO_OBSOLET</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ergebnis der Prüfmethode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_SND</CLSNAME>
+     <CMPNAME>CO_START</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ergebnis der Prüfmethode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_SND</CLSNAME>
+     <CMPNAME>CO_WAIT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ergebnis der Prüfmethode</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/HFQ/CL_UTILTS_CREATE</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Klasse zum Erstellen der Berechnungsformel</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_CREATE</CLSNAME>
+     <CMPNAME>CO_UTILTS_MSS_INIT_STEP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Nummer des Prozessschritts</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_CREATE</CLSNAME>
+     <CMPNAME>CO_UTILTS_SND_INIT_STEP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Nummer des Prozessschritts</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_CREATE</CLSNAME>
+     <CMPNAME>CREATE_NEW_PDOC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Neues Prozessdokument erstellen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_CREATE</CLSNAME>
+     <CMPNAME>FILL_UP_NEW_PROCESS_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prozessdaten befüllen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_CREATE</CLSNAME>
+     <CMPNAME>FILL_UP_NEW_PROC_DATA_DEFAULT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>fall-back für Situation ohne BAdI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_CREATE</CLSNAME>
+     <CMPNAME>GET_CURRENT_PROCESS_STEP_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prozessschrittdaten aus Quellprozess lesen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_CREATE</CLSNAME>
+     <CMPNAME>GET_SERVPROV_DETAILS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Empfängerdaten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_CREATE</CLSNAME>
+     <CMPNAME>IS_PROCESS_STEP_TRIGGERED</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ist der relevante Quellschritt vorhanden?</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_CREATE</CLSNAME>
+     <CMPNAME>PREPARE_PDOC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prozessanstoß vorbereiten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_CREATE</CLSNAME>
+     <CMPNAME>TRIGGER_CHECK</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüft, auf Anstoß des /HFQ/UTILTS_MSS und löst diesen aus</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

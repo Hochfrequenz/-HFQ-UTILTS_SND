@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/HFQ/IF_BADI_UTILTS_TRIG</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Interface für /HFQ/BADI_UTILTS_TRIG</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/IF_BADI_UTILTS_TRIG</CLSNAME>
+     <CMPNAME>CO_UTILTS_MSS_PROC_ID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Statische Prozess-ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/IF_BADI_UTILTS_TRIG</CLSNAME>
+     <CMPNAME>CO_UTILTS_SND_PROC_ID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Statische Prozess-ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/IF_BADI_UTILTS_TRIG</CLSNAME>
+     <CMPNAME>FILL_NEW_PROCESS_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PDOC Daten befüllen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/IF_BADI_UTILTS_TRIG</CLSNAME>
+     <CMPNAME>VALIDATE_UTILTS_PROCESS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>prüfen, ob UTILTS-Prozeß nicht gertriggert werden muß</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
