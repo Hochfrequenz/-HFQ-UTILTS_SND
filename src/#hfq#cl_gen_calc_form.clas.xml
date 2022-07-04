@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/HFQ/CL_GEN_CALC_FORM</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Gen. d. Berechnungsformel</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_GEN_CALC_FORM</CLSNAME>
+     <CMPNAME>ADD_CALC_FORM_ENTRY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt der Schrittliste einen neuen Eintrag zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_GEN_CALC_FORM</CLSNAME>
+     <CMPNAME>CHECK_CALC_FORM_ENTRY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüft den Rechnungsschritt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_GEN_CALC_FORM</CLSNAME>
+     <CMPNAME>CHECK_EXISTING_TIMESLICES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüft die vorhandenen Zeitscheiben</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_GEN_CALC_FORM</CLSNAME>
+     <CMPNAME>GC_CALCFORM_MSGID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>ABAP-Systemfeld: Nachrichtenklasse</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_GEN_CALC_FORM</CLSNAME>
+     <CMPNAME>GC_DATE_FINITE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Datum, bis zu dem eine Zeitscheibe gültig ist</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_GEN_CALC_FORM</CLSNAME>
+     <CMPNAME>GC_DATE_INFINITE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Datum, bis zu dem eine Zeitscheibe gültig ist</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_GEN_CALC_FORM</CLSNAME>
+     <CMPNAME>GC_TIME_MAX</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>TIME-Datenelement fuer SYST</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_GEN_CALC_FORM</CLSNAME>
+     <CMPNAME>GC_TIME_MIN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>TIME-Datenelement fuer SYST</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_GEN_CALC_FORM</CLSNAME>
+     <CMPNAME>GC_TYP_ERROR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Meldungstyp: S Success, E Error, W Warning, I Info, A Abort</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_GEN_CALC_FORM</CLSNAME>
+     <CMPNAME>GC_TYP_STATUS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Meldungstyp: S Success, E Error, W Warning, I Info, A Abort</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_GEN_CALC_FORM</CLSNAME>
+     <CMPNAME>GC_TYP_WARNING</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Meldungstyp: S Success, E Error, W Warning, I Info, A Abort</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_GEN_CALC_FORM</CLSNAME>
+     <CMPNAME>GEN_CALC_FORM_ENTRY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Erzeugt die Schritteinträge in der /HFQ/CALC_FORM</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_GEN_CALC_FORM</CLSNAME>
+     <CMPNAME>GEN_MALO_TIMESLICE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Erzeugt eine neue MaLo-Zeitscheibe</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_GEN_CALC_FORM</CLSNAME>
+     <CMPNAME>GS_CALC_FORM_H_NEW</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kopfdaten: Berechnungsformel: MaLo und Zeitscheiben</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_GEN_CALC_FORM</CLSNAME>
+     <CMPNAME>GT_CALC_FORM</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabellentyp zu Tabelle /HFQ/CALC_FORM</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_GEN_CALC_FORM</CLSNAME>
+     <CMPNAME>SAVE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Speichert die Daten in die Datenbank</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_GEN_CALC_FORM</CLSNAME>
+     <CMPNAME>SET_MAIN_CALC_STEP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Legt den Hauptschritt für die MaLo fest.</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

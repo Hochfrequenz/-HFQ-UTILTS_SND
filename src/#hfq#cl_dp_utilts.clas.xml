@@ -1,0 +1,596 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Data-Provision Class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Transaktionsnummer</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Marktlokations-ID</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Gültig-Ab-Datum</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Antwortstatus</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>Formelstatus</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>006</KEY>
+     <ENTRY>Referenz-Transaktion</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>007</KEY>
+     <ENTRY>Lieferrichtung</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>008</KEY>
+     <ENTRY>MaLo Energiemenge</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>009</KEY>
+     <ENTRY>Rechenschritt-Referenz</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>010</KEY>
+     <ENTRY>Verwendungszweck</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>011</KEY>
+     <ENTRY>Berechnungsschritt</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>012</KEY>
+     <ENTRY>Messlokations-Referenz</ENTRY>
+     <LENGTH>44</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>013</KEY>
+     <ENTRY>Mathematischer Operator</ENTRY>
+     <LENGTH>46</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>014</KEY>
+     <ENTRY>Flussrichtung</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>015</KEY>
+     <ENTRY>Trafo-Verlust</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>016</KEY>
+     <ENTRY>Leitungs-Verlust</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>017</KEY>
+     <ENTRY>Nachrichtenkategorie</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>018</KEY>
+     <ENTRY>Dokument-ID</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>101</KEY>
+     <ENTRY>Fertigstellungsdatum</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>102</KEY>
+     <ENTRY>Code der Zählzeit</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>103</KEY>
+     <ENTRY>Häufigkeit der Übermittlung</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>105</KEY>
+     <ENTRY>Übermittelbarkeit der Zählzeit</ENTRY>
+     <LENGTH>60</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>106</KEY>
+     <ENTRY>Ermittlung des Leistungsmaximums</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>107</KEY>
+     <ENTRY>Bestellbarkeit</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>108</KEY>
+     <ENTRY>Zählzeitdefinitionstyp</ENTRY>
+     <LENGTH>44</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>109</KEY>
+     <ENTRY>Code des Zählzeitregisters</ENTRY>
+     <LENGTH>52</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>110</KEY>
+     <ENTRY>Schwachlastfähigkeit</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>111</KEY>
+     <ENTRY>Nutzung von Zählzeitdefinitionen</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>112</KEY>
+     <ENTRY>Gültigkeitsbeginn</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>113</KEY>
+     <ENTRY>Gültigkeitsende</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>ADDITIONAL_TEXT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Additional Text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>CALC_STEP_SEQ</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Calculation Step Sequence</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>COMPLETION_DATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>TOU - Completion Date</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>ENERGY_DIRECTION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Energy flow-Direction</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GC_ANSWER_STAT_E14</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ablehnung Sonstiges</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GC_ANSWER_STAT_E15</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zustimmung ohne Korrekturen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GC_ANSWER_STAT_ZK3</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ablehn.,  „Gültig ab“-Datum unplausibel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GC_ANSWER_STAT_ZK4</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ablehn., zu viele MeLos in der Berechnungsformel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GC_ANSWER_STAT_ZK5</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ablehn., MeLos  in der Formel fehlen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GC_ANSWER_STAT_ZK6</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ablehn., IDs der MeLo stimmen nicht überein</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GC_ANSWER_STAT_ZK7</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ablehn., mind. 1 Flussrichtung inkorrekt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GC_ANSWER_STAT_ZQ3</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ablehn., Lieferrichtung der MaLo ist nicht korrekt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GC_ANSWER_STAT_ZQ4</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ablehn.,  Leitungs- oder Trafoverlust unverändert</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GC_BMID_UTTS0</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Business Message ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GC_BMID_UTTS1</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Business Message ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GC_BMID_UTTS2</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Business Message ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GC_CALCFORM_STAT_Z33</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Berechnungsformel angefüg</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GC_CALCFORM_STAT_Z34</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Berechnungsf. muss beim Absender angefragt werden</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GC_CALCFORM_STAT_Z40</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Berechnungsformel besitzt keine Rechenoperation</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GC_CALCFORM_STAT_Z41</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Berechnungsformel nicht erforderlich</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GC_MATH_OPERATOR_Z69</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Mathematische Operation</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GC_MATH_OPERATOR_Z70</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Mathematische Operation</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GC_MATH_OPERATOR_Z80</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Mathematische Operation</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GC_MATH_OPERATOR_Z81</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Mathematische Operation</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GC_MATH_OPERATOR_Z82</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Mathematische Operation</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GC_MATH_OPERATOR_Z83</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Mathematische Operation</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GC_MESSAGE_CAT_Z36</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Dokumentcode der Schlüsselnachricht</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GC_MSGTP_UTILTS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Nachrichtentyp</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GC_TOU_TYPE_ELSE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Feld der Laenge 3 Bytes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GET_METERING_PROCEDURE_DETAILS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Get metering procedure details information</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>GET_TIME_OF_USE_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Get Time of Use details</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>LOSSFACTOR_LINE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Lossfactor of the line</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>LOSSFACTOR_TRANSFORMATOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Lossfactor of the transformator</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>MALO_ENERGYAMOUNT_SEQ</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Energy Amount of the Market Location</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>MARKET_LOCATION_ID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>ID of the Market-Location</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>MATHEMATICAL_OPERATOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Mathematical operator</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>MR_RELEVANCE_AND_USE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Relevance and usage of Meter values</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>PROVIDE_SUPPLY_DIRECT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Get supply direction</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>REFERENCE_TO_CALC_STEP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Reference to another Calculation Step</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>REFERENCE_TO_POD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Reference to metering location-ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>REFERENCE_TO_TRANSACTION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Reference to another Transaction</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>SIS_CALC_FORM_H</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kopfdaten: Berechnungsformel: MaLo und Zeitscheiben</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>SIT_CALC_FORM</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabellentyp zu Tabelle /HFQ/CALC_FORM</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>SIV_CONTEXT_SEQ</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>3-Byte field</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>SIV_DATA_NOT_FILLED</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Data Not Filled in Data Container</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>SIV_METER_PROC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zählverfahren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>STATUS_OF_ANSWER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Status of the answer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>STATUS_OF_CALCFORM</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Status of the calculation-formula</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>SUPPLY_DIRECTION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Supply direction (relevant for GPKE (Z07) and GENF (Z06))</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>TOU_DEFINITION_CODE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>TOU - Definition ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>TOU_DEF_TYPE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>TOU - Type of definition</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>TOU_HP_USAGE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>TOU - Usage of high-performance-windows</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>TOU_LIGHTLOAD_COMPATIBLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>TOU - Lighload-Compability</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>TOU_ORDERABLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>TOU - Is it orderable</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>TOU_REGISTER_CODE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>TOU - Code of Register</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>TOU_REGISTER_REF</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>TOU - Register with Reference to TOU</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>TOU_R_ACTIVE_REGISTERS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>TOU - ActivationTimes of Registers</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>TOU_R_ORDER_REFERENCE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>TOU - Reference to reclamation ORDERS</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>TOU_R_VALID_FROM_DATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>TOU - Valid from Date of rolled out TOU</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>TOU_R_VALID_TO_DATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>TOU - Valid to Date of rolled out TOU</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>TOU_TRANSMISSION_FREQ</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>TOU - Frequency of transmission</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>TOU_TRANSMISSION_WAY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>TOU  - Way of transmission</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>TOU_USAGE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>TOU - Usage</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>TRANSACTION_ID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Transaktion ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_DP_UTILTS</CLSNAME>
+     <CMPNAME>VALID_FROM_DATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Date from which the calculation-formula is valid</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

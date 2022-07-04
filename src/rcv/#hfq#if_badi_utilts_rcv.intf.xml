@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/HFQ/IF_BADI_UTILTS_RCV</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Interface zum BAdI: /HFQ/BADI_UTILTS_RCV</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/IF_BADI_UTILTS_RCV</CLSNAME>
+     <CMPNAME>CHECK_DATA_STORAGE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüft ob gültige Berechnungsformel hinterlegt wurde</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/IF_BADI_UTILTS_RCV</CLSNAME>
+     <CMPNAME>SAVE_CALC_FORM</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Speichert die Berechnungsformel im System</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/IF_BADI_UTILTS_RCV</CLSNAME>
+     <CMPNAME>SELECT_CF_DETAILS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Einträge aus der Berechnungsformel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/IF_BADI_UTILTS_RCV</CLSNAME>
+     <CMPNAME>SELECT_RELEVANT_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Einträge aus der DB: /HFQ/CALC_FORM</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

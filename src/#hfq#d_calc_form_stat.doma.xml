@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>/HFQ/D_CALC_FORM_STAT</DOMNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000003</LENG>
+    <OUTPUTLEN>000003</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Status der Berechnungsformel</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>/HFQ/D_CALC_FORM_STAT</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>Z33</DOMVALUE_L>
+     <DDTEXT>Formel angefügt</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>/HFQ/D_CALC_FORM_STAT</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>Z34</DOMVALUE_L>
+     <DDTEXT>Formel muss beim Absender angefragt werden</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>/HFQ/D_CALC_FORM_STAT</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>Z40</DOMVALUE_L>
+     <DDTEXT> Berechnungsformel besitzt keineRechenoperation</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>/HFQ/D_CALC_FORM_STAT</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>Z41</DOMVALUE_L>
+     <DDTEXT> Berechnungsformel nicht erforderlich</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

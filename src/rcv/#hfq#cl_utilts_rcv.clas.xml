@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/HFQ/CL_UTILTS_RCV</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Klasse zum Empfangen der Berechnungsformel</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_RCV</CLSNAME>
+     <CMPNAME>CHECK_CALCULATION_FORMULA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüft die Berechnungsformel.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_RCV</CLSNAME>
+     <CMPNAME>CHECK_DATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüft Plausibilität des Datums.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_RCV</CLSNAME>
+     <CMPNAME>CHECK_ERG</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüft Lieferrichtung.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_RCV</CLSNAME>
+     <CMPNAME>CHECK_FLOW</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüft Flussrichtung.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_RCV</CLSNAME>
+     <CMPNAME>CHECK_LOSSFACTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüft die Verlustfaktoren in der Berechnungsformel.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_RCV</CLSNAME>
+     <CMPNAME>CHECK_MELO_CONFIG</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüft, ob Anzahl und ID der Melo stimmen überein.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_RCV</CLSNAME>
+     <CMPNAME>CHECK_STORED_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüft ob Berechnungsformel in der Datenbank hinterlegt ist.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_RCV</CLSNAME>
+     <CMPNAME>CHECK_UPDATE_MALO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Malo im Kopf updaten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_RCV</CLSNAME>
+     <CMPNAME>CO_ACCEPT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ergebnis der Prüfmethode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_RCV</CLSNAME>
+     <CMPNAME>CO_ERROR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ergebnis der Prüfmethode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_RCV</CLSNAME>
+     <CMPNAME>CO_EXISTS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ergebnis der Prüfmethode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_RCV</CLSNAME>
+     <CMPNAME>CO_OK</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ergebnis der Prüfmethode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_RCV</CLSNAME>
+     <CMPNAME>CO_REFUSE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ergebnis der Prüfmethode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_RCV</CLSNAME>
+     <CMPNAME>CO_UNKNOWN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ergebnis der Prüfmethode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_RCV</CLSNAME>
+     <CMPNAME>CO_WRONG</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ergebnis der Prüfmethode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_RCV</CLSNAME>
+     <CMPNAME>GC_RESPSTATUS_ZK3</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Antwortstatus: Datum unplausibel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_RCV</CLSNAME>
+     <CMPNAME>GC_RESPSTATUS_ZK4</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Antwortstatus: zu wenige Melo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_RCV</CLSNAME>
+     <CMPNAME>GC_RESPSTATUS_ZK5</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Antwortstatus: zu viele Melo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_RCV</CLSNAME>
+     <CMPNAME>GC_RESPSTATUS_ZK6</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Antwortstatus: Melo-ID falsch</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_RCV</CLSNAME>
+     <CMPNAME>GC_RESPSTATUS_ZK7</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Antwortstatus: Flussrichtung falsch</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_RCV</CLSNAME>
+     <CMPNAME>GC_RESPSTATUS_ZQ3</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Antwortstatus: Lieferrichtung falsch</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_RCV</CLSNAME>
+     <CMPNAME>GC_RESPSTATUS_ZQ4</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Antwortstatus: Verluste nicht geändert</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_RCV</CLSNAME>
+     <CMPNAME>SAVE_MSGRESP_STATUS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Speichert den Status der Antwort auf die Berechnungsformel.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_RCV</CLSNAME>
+     <CMPNAME>SET_RESPONSE_STATUS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Setzt den Antwortstatus.</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

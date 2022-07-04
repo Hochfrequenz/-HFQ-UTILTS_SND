@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/HFQ/CL_UTILTS_MSS</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Klasse zur Befüllung der UTILTS-Prozesse</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_MSS</CLSNAME>
+     <CMPNAME>CHECK_SUB_PROCESS_STATUS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüft die Status der Unterprozesse /HFQ/UTILTS_SND</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_MSS</CLSNAME>
+     <CMPNAME>CO_ACTIVE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ergebnis der Prüfmethode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_MSS</CLSNAME>
+     <CMPNAME>CO_COMPLETE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ergebnis der Prüfmethode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_MSS</CLSNAME>
+     <CMPNAME>CO_EMPTY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ergebnis der Prüfmethode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_MSS</CLSNAME>
+     <CMPNAME>CO_ERROR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ergebnis der Prüfmethode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_MSS</CLSNAME>
+     <CMPNAME>CO_MULTIPLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ergebnis der Prüfmethode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_MSS</CLSNAME>
+     <CMPNAME>CO_OBSOLETE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ergebnis der Prüfmethode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_MSS</CLSNAME>
+     <CMPNAME>CO_SUCCESS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ergebnis der Prüfmethode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_MSS</CLSNAME>
+     <CMPNAME>CO_USER_DECI</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ergebnis der Prüfmethode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_MSS</CLSNAME>
+     <CMPNAME>CO_UTILTS_SND_INIT_STEP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Nummer des Prozessschritts</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_MSS</CLSNAME>
+     <CMPNAME>CO_UTILTS_SND_PROC_ID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Statische Prozess-ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_MSS</CLSNAME>
+     <CMPNAME>CO_WARNING</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ergebnis der Prüfmethode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_MSS</CLSNAME>
+     <CMPNAME>CREATE_NEW_PDOC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Erzeugt ein neues Prozessdokument</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_MSS</CLSNAME>
+     <CMPNAME>GET_CORRESPONDING_MELOS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>sammelt die Liste aller zugehörigen MeLos zur MaLo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_MSS</CLSNAME>
+     <CMPNAME>GET_SERV_PROV</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>ermittelt Servicepartner zum Zählpunkt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_MSS</CLSNAME>
+     <CMPNAME>GET_SERV_PROV_LIST</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>sammelt die Liste aller zuständigen Marktpartner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_MSS</CLSNAME>
+     <CMPNAME>INFORM_SERV_PROV</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>erzeugt den Schrittanstoß für den UTILTS-Versand</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/HFQ/CL_UTILTS_MSS</CLSNAME>
+     <CMPNAME>UPDATE_PROC_DATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Abgleich des Prozessierungsdatums</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

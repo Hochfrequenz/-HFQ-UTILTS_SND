@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/HFQ/CALC_FORM</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>005</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Fehler beim Update von Tabelle &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Fehler: Kein Eintrag für die Kopftabelle vorhanden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Zu Malo &amp;1 ist im Zeitraum &amp;2 - &amp;3 keine Zeitscheibe vorhanden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Es sind Einträge zu Malo &amp;1 im Zeitraum &amp;2 - &amp;3 vorhanden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Existierender Eintrag mit Zeitraum &amp;1 - &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Existierende Zeitscheibe liegt innerhalb der geplanten Neuen!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Existierende Zeitscheibe läuft länger als die geplante Neue.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Existierende Zeitscheibe startet vor der geplanten Neuen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Existierende Zeitscheibe ist nicht abgegrenzt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Abgrenzung der existierende Zeitscheibe zum &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Die existierende Zeitscheibe endet vor der geplanten.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Die geplante Zeitscheibe liegt komplett innerhalb der Existierenden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Zugehörige Zeitscheibe zur Formel nicht vorhanden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Schritt nicht eingeordnet, Schrittnummer oder Referenz fehlt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Der Referenzschritt &amp;1 aus Schritt &amp;2 fehlt!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Der Hauptschritt &amp;1 für den Unterschritt &amp;2 fehlt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Der mathematische Operator in Schritt &amp;1 muss gefüllt sein!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Die Lieferrichtung in Schritt &amp;1 muss gefüllt sein!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Die übergebene MeLo &amp;1 ist im System nicht bekannt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>Formeleintrag fehlerhaft und wird nicht übernommen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>Zeitscheibe enthält Bilaterale Absprache, kein MaLo-Summenschritt nötig</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>Referenz &amp;1 als MaLo-Summenschritt fehlt in der Schrittliste.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Speichern der Zeitscheibe fehlgeschlagen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Speichern der Berechnungsschritte fehlgeschlagen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/HFQ/CALC_FORM</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Berechnungsschritte erfolgreich gespeichert.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
